@@ -24,7 +24,7 @@ The device demonstrates essential smartwatch functions, including sensing, step 
 ---
 
 ## Circuit Image
-![Circuit picture](circuit.jpg)
+![Circuit picture](circuit.png)
 
 ---
 
