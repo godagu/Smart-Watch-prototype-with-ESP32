@@ -1,0 +1,52 @@
+# Smart Watch Prototype (ESP8266)
+
+**Author:** Goda Gutparakytė  
+**Course:** Introduction to Robotics — Vilnius University  
+**Assignment:** HW4  
+**Last Updated:** 2025-11-24  
+
+---
+
+## Overview
+This project implements a prototype **smart watch** using the ESP8266 WiFi-enabled microcontroller.  
+The device demonstrates essential smartwatch functions, including sensing, step tracking, real-time updates, and user interaction.
+
+### Features
+- **240×240 round TFT LCD (GC9A01) display**  
+- **GYMAX-30102** heart-rate and pulse oximetry sensor  
+- **MPU-6050** accelerometer and gyroscope for step counting  
+- **Physical button** for switching UI themes  
+- **WiFi connectivity** to obtain current time and date  
+- **Weather information** retrieved using the Open-Meteo API  
+
+---
+
+## Circuit Image
+![Circuit picture](circuit.jpg)
+
+---
+
+## Build Steps
+1. Assemble all components according to the wiring schematic below.  
+2. Open the `.ino` file in the Arduino IDE.  
+3. Select **Board: ESP8266** (or the specific ESP8266 variant you are using).  
+4. Select the correct **COM port**.  
+5. Click **Upload** to flash the program onto the microcontroller.  
+
+---
+
+## Component List
+
+| Label | Quantity | Component |
+|-------|----------|-----------|
+| U1    | 1        | ESP8266 microcontroller |
+| L     | 1        | GC9A01 round TFT LCD display |
+| H     | 1        | GYMAX-30102 heart-rate & SpO₂ sensor |
+| B     | 1        | Push button |
+| G     | 1        | MPU-6050 accelerometer & gyroscope |
+
+---
+
+## Wiring
+
+![Wiring schematic](wiring_schematic.pdf)
