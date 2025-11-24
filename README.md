@@ -17,7 +17,9 @@ The device demonstrates essential smartwatch functions, including sensing, step 
 - **MPU-6050** accelerometer and gyroscope for step counting  
 - **Physical button** for switching UI themes  
 - **WiFi connectivity** to obtain current time and date  
-- **Weather information** retrieved using the Open-Meteo API  
+- **Weather information** retrieved using the Open-Meteo API
+- **3.7 V Li-ion/LiPo battery** for portable power  
+- **TP4056 charging module** for safe USB charging  
 
 ---
 
@@ -44,6 +46,9 @@ The device demonstrates essential smartwatch functions, including sensing, step 
 | H     | 1        | GYMAX-30102 heart-rate & SpO₂ sensor |
 | B     | 1        | Push button |
 | G     | 1        | MPU-6050 accelerometer & gyroscope |
+| BAT   | 1        | 3.7 V Li-ion/LiPo battery |
+| CHG   | 1        | TP4056 Li-ion USB charging module |
+
 
 ---
 
