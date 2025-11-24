@@ -1,4 +1,4 @@
-# Smart Watch Prototype (ESP8266)
+# Smart Watch Prototype (ESP32)
 
 **Author:** Goda Gutparakytė  
 **Course:** Introduction to Robotics — Vilnius University  
@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-This project implements a prototype **smart watch** using the ESP8266 WiFi-enabled microcontroller.  
+This project implements a prototype **smart watch** using the ESP WiFi-enabled microcontroller.  
 The device demonstrates essential smartwatch functions, including sensing, step tracking, real-time updates, and user interaction.
 
 ### Features
@@ -31,7 +31,7 @@ The device demonstrates essential smartwatch functions, including sensing, step 
 ## Build Steps
 1. Assemble all components according to the wiring schematic below.  
 2. Open the `.ino` file in the Arduino IDE.  
-3. Select **Board: ESP8266** (or the specific ESP8266 variant you are using).  
+3. Select **Board: ESP32** (or the specific ESP32 variant you are using).  
 4. Select the correct **COM port**.  
 5. Click **Upload** to flash the program onto the microcontroller.  
 
@@ -41,7 +41,7 @@ The device demonstrates essential smartwatch functions, including sensing, step 
 
 | Label | Quantity | Component |
 |-------|----------|-----------|
-| U1    | 1        | ESP8266 microcontroller |
+| U1    | 1        | ESP32 microcontroller |
 | L     | 1        | GC9A01 round TFT LCD display |
 | H     | 1        | GYMAX-30102 heart-rate & SpO₂ sensor |
 | B     | 1        | Push button |
