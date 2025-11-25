@@ -53,8 +53,8 @@ Adafruit_MPU6050 mpu;
 TFT_eSPI tft = TFT_eSPI();
 
 // WIFI
-const char* ssid = "Cgates-E864";
-const char* password = "KumbaTomasGoda6!";
+const char* ssid = "";
+const char* password = "";
 
 // TIME
 const char* ntpServer = "pool.ntp.org";
